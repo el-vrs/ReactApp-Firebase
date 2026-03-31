@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffde7;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+.container {
+  background-color: #fff9c4;
+  border-radius: 20px;
+  padding: 40px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  text-align: center;
+  color: #f9a825;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input {
+  flex: 1;
+  padding: 12px 16px;
+  border: 2px solid #ffe082;
+  border-radius: 12px;
+  font-size: 1rem;
+  background-color: #ffffff;
+  outline: none;
+  transition: border 0.3s;
+}
+
+input:focus {
+  border-color: #f9a825;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #ffd54f;
+  color: #5d4037;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #ffca28;
+  transform: scale(1.03);
+}
+
+.notes {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.note {
+  background-color: #ffffff;
+  border-left: 5px solid #ffd54f;
+  border-radius: 12px;
+  padding: 14px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.note p {
+  color: #4e4e4e;
+  font-size: 1rem;
+}
+
+.note button {
+  background-color: #ffe082;
+  color: #5d4037;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  border-radius: 8px;
+}
+
+.note button:hover {
+  background-color: #ffca28;
+}
